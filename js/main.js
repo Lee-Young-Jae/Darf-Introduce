@@ -134,7 +134,11 @@
     let imgElem;
     for (let i = 0; i < sceneInfo[0].values.videoImageCount; i++) {
       imgElem = new Image();
-      imgElem.src = `./video/001/AdobeStock_${1000 + i}.JPG`;
+      // imgElem.src = `./video/001/AdobeStock_${1000 + i}.JPG`;
+      imgElem.src = `https://raw.githubusercontent.com/Lee-Young-Jae/Lee-Young-Jae.github.io/master/video/001/AdobeStock_${
+        1000 + i
+      }.jpg`;
+
       sceneInfo[0].objs.videoImages.push(imgElem);
     }
 
