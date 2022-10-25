@@ -134,10 +134,10 @@
     let imgElem;
     for (let i = 0; i < sceneInfo[0].values.videoImageCount; i++) {
       imgElem = new Image();
-      // imgElem.src = `./video/001/AdobeStock_${1000 + i}.JPG`;
-      imgElem.src = `https://raw.githubusercontent.com/Lee-Young-Jae/Lee-Young-Jae.github.io/master/video/001/AdobeStock_${
-        1000 + i
-      }.jpg`;
+      imgElem.src = `./video/001/AdobeStock_${1000 + i}.jpg`;
+      // imgElem.src = `https://raw.githubusercontent.com/Lee-Young-Jae/Lee-Young-Jae.github.io/master/video/001/AdobeStock_${
+      //   1000 + i
+      // }.jpg`;
 
       sceneInfo[0].objs.videoImages.push(imgElem);
     }
@@ -145,7 +145,7 @@
     let imgElem2;
     for (let i = 0; i < sceneInfo[2].values.videoImageCount; i++) {
       imgElem2 = new Image();
-      imgElem2.src = `./video/002/AdobeStock_${398972783000 + i}.JPG`;
+      imgElem2.src = `./video/002/AdobeStock_${398972783000 + i}.jpg`;
       sceneInfo[2].objs.videoImages.push(imgElem2);
     }
 
