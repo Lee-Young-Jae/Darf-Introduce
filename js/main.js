@@ -110,7 +110,10 @@
         canvasCaption: document.querySelector(".canvas-caption"),
         canvas: document.querySelector(".image-blend-canvas"),
         context: document.querySelector(".image-blend-canvas").getContext("2d"),
-        imagesPath: ["./imgs/blend-image-1.jpg", "./imgs/blend-image-2.jpg"],
+        imagesPath: [
+          "./images/blend-image-1.jpg",
+          "./images/blend-image-2.jpg",
+        ],
         images: [],
 
         messageA: document.querySelector("#scroll-section-3 .main-message.a"),
